@@ -1,0 +1,615 @@
+
+/*  
+
+Working on 
+            colors
+            Gradient Colors
+            Box Shadows
+            Button
+            Animated Gradients
+
+Check Fonts:
+            Geometric Sans,
+            Akzidenz Grotesk,
+            Aileron,
+            Masculine
+            
+*/
+
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0; padding: 0; height: 100%;
+    background-color: var(--Plain);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+:root {
+
+    /* Font Sizes */
+
+
+    --CoverTextLargeHeadFontSize: 2.2;
+    --CoverTextSmallHeadFontSize: 2.15;
+    --CoverTextParagraphFontSize: 1.1;
+
+    --LargeHeadingFontSize: 2.1;
+    --HeadingFontSize: 1.8;
+    --SmallHeadingFontSize: 1.5;
+    
+    --ParagraphFontSize: 1;
+
+
+
+
+    /* Color Profiles */
+
+    /* Harvesting the wheat  */
+/* 
+    --Plain: #f2e0c9;
+    --light: #d99e6a;
+    --medium: #a65b1b;
+    --dark: #400202;
+    --extra: #403001;
+ */
+
+ /* Industries */
+
+     
+    --Plain: rgb(244, 246, 246);
+    --Plain-medium: rgb(232, 236, 236);
+    --light: rgb(30, 130, 150);
+    --medium: rgb(20, 110, 120);
+    --dark: rgb(0, 70, 80);
+    --extra: rgb(17, 42, 64);
+    --extra-medium: rgb(69, 107, 140);
+    --extra-light: rgb(170, 214, 255);
+    --msi-red: rgb(175, 30, 30);
+ 
+
+
+/*     --Plain: rgb(242, 242, 242);
+    --light: rgb(145, 183, 217);
+    --medium: rgb(69, 107, 140);
+    --dark: rgb(17, 42, 64);
+    --extra: rgb(40, 110, 120);
+    --extra-medium: rgb(50, 160, 170);
+    --msi-red: rgb(175, 30, 30); */
+
+
+
+        /* Wheat field Agriculture */
+/*     
+    --Plain: #d9d0c1;
+    --light: #f2b138;
+    --medium: #bf6415;
+    --dark: #8c3908;
+    --extra: #d9984a;
+ */
+
+    /* Wireframe Computer for Modern Industrial */
+/*  
+    --Plain: #f2f2f2;
+    --light: #6387a6;
+    --medium: #0f3759;
+    --dark: #111559;
+    --extra: #141a8c;
+ */
+
+ /* Modern industrial enterprise */
+/* 
+    --Plain: #f2a81d;
+    --light: #f29863;
+    --medium: #f28e13;
+    --dark: #048abf;
+    --extra: #0367a6;
+ */
+
+    /* Industry technology  */
+/*      
+    --Plain: #c4ddf2;
+    --light: #0378a6;
+    --medium: #024873;
+    --dark: #012840;
+    --extra: #4189a6;
+ */
+        
+}
+
+
+/* Site One Time Declarations */
+
+/* Font Sizing */
+
+h1 { font-size: calc(var(--CoverTextLargeHeadFontSize) * 1rem + 0.25vmin);}
+h2 { font-size: calc(var(--CoverTextSmallHeadFontSize) * 1rem + 0.25vmin);}
+h3 { font-size: calc(var(--LargeHeadingFontSize) * 1rem + 0.5vmin);}
+h4 { font-size: calc(var(--HeadingFontSize) * 1rem + 0.5vmin);}
+h5 { font-size: calc(var(--SmallHeadingFontSize) * 1rem + 0.5vmin);}
+h6 { font-size: calc(var(--CoverTextParagraphFontSize) * 1rem + 0.3vmin);}
+p { font-size: calc(var(--ParagraphFontSize) * 1rem + 0.5vmin);}
+
+
+/* Font Sizing End in Media Query */
+
+@media only screen and (max-width: 10in) {
+
+    h1 { font-size: calc(var(--CoverTextLargeHeadFontSize) * 50%);}
+    h2 { font-size: calc(var(--CoverTextSmallHeadFontSize) * 50%);}
+    h4 { font-size: calc(var(--HeadingFontSize) * 75%);}
+    h6 { font-size: calc(var(--CoverTextParagraphFontSize) * 75%);}
+}
+
+
+/* Font Sizing End in Media Query End */
+/* Font Sizing End */
+
+.MSIColor {
+    color: var(--msi-red);
+}
+
+/* Site One Time Declarations End */
+
+
+
+/* Site Header */
+
+header.SiteHeader {
+    position: sticky;
+    display: grid;
+    grid-template-columns: 9vmin 1fr;
+    grid-template-areas:
+    "SiteLogoArea BusinessTitleArea"
+    "SiteLogoArea SiteSloganArea";
+    grid-column-gap: 0.2em;
+    top: 0;
+    padding: 0.2em;
+    align-items: center;
+    background-color: var(--Plain);
+    z-index: 6;
+}
+
+header img.SiteLogo {
+    display: block;
+    width: 6vmin;
+    grid-area: SiteLogoArea;
+    justify-self: center;
+}
+
+
+@font-face {
+    src: url(/Assets/Fonts/Square_Shape/corp.ttf);
+    font-family: BusinessTitle;
+}
+
+header span.BusinessTitle{
+    grid-area: BusinessTitleArea;
+    font-family: BusinessTitle;
+    font-size: calc(2em + 0.9vmin);
+    font-weight: bold;
+    color: var(--msi-red);
+    padding-top: 0%;
+}
+
+/* Millennia.otf */
+/* Abandon.ttf */
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan;
+}
+
+header span.SiteSlogan{
+    grid-area: SiteSloganArea;
+    font-family: SiteSlogan;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;
+    color: var(--msi-red);
+}
+
+header .HeaderText {
+    margin: 0;
+    padding: 0;
+}
+
+/* Site Header End */
+
+/* Main Menu */
+.MainMenu {
+    width: 100vw; max-width: 100%;
+    background-color: var(--dark);
+    border-top: solid var(--medium);
+    z-index: 4;
+}
+
+.MainMenu ul {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(auto, 1fr));
+    list-style: none;
+    padding: 0 0.5%;
+    z-index: 4;
+}
+
+.MainMenu ul li {
+    text-align: center;
+    border-radius: 5px;
+    line-height: 1.4em;
+    z-index: 4;
+}
+
+.MainMenu ul li:hover {
+    background-color: var(--medium);
+    transform: scale(1.3);
+    transform: translateY(0.3em);
+    font-weight: bold;
+    transition: transform 200ms ease-in-out;
+}
+.MainMenu ul li:focus {
+    background-color: var(--medium);
+    transform: scale(1.3);
+    transform: translateY(0.3em);
+    font-weight: bold;
+    transition: transform 200ms ease-in-out;
+}
+
+@font-face {
+    src: url(/Assets/Fonts/Selected/Quango.otf);
+    font-family: SiteMenu;
+}
+
+.MainMenu ul li a {
+    display: block;
+    text-decoration: none;
+    color: var(--Plain);
+    font-family: SiteMenu;
+    font-size: 1.1em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+#ResponsiveNav {
+    display: none;
+}
+
+.ResponsiveNavIcon {
+    display: none;
+}
+
+/* Main Menu Media Query*/
+
+@media only screen and (max-width: 10in) {
+
+    header.SiteHeader {
+        z-index: 2;
+    }
+
+    header span.BusinessTitle{
+        font-size: calc(1.25em + 0.5vmin);
+    }
+
+    header span.SiteSlogan{
+        font-size: calc(0.8em + 0.1vmin);
+    }    
+
+    .ResponsiveNavIcon {
+        display: block;
+        position: absolute;
+        width: 45vw;
+        color: var(--Plain);
+        padding: 1.5em 1.2em;
+        text-align: left;
+        z-index: 5;
+    }
+
+    .MainMenu {
+        position: fixed;
+        width: 45vw; min-height: 100%;
+        top: 0;
+        transform: scale(0, 1);
+        transition: transform 250ms ease;
+        transform-origin: left;
+    }
+
+    .MainMenu ul {
+        grid-template-columns: 1fr;
+        margin-top: 7em;
+    }
+
+    .MainMenu ul li {
+        text-align: left;
+        padding: 0.5em 1.2em;
+    }
+
+    .MainMenu ul li a {
+        font-size: 0.9em;
+    }
+
+    #ResponsiveNav:checked ~ .MainMenu {
+        transform: scale(1);
+        transition: transform 250ms ease-in;
+        transform-origin: left;
+    }
+
+    .ResponsiveNavIcon span {
+        display: block;
+        content: "";
+        position: absolute;
+        top: 1.5em;
+        width: 2em; height: 0.15em;
+        background-color: white;
+    }
+
+    .ResponsiveNavIcon span::before {
+        display: block;
+        content: "";
+        position: absolute;
+        background-color: white;
+        top: 5px;
+        width: 2em; height: 0.15em;
+    }
+
+    .ResponsiveNavIcon span::after {
+        display: block;
+        content: "";
+        position: absolute;
+        background-color: white;
+        bottom: 5px;
+        width: 2em; height: 0.15em;
+    }
+
+    #ResponsiveNav:checked ~ .ResponsiveNavIcon span  {
+        background: transparent;
+    }
+
+    #ResponsiveNav:checked ~ .ResponsiveNavIcon span::before  {
+        background-color: var(--Plain);
+        transform: rotate(-45deg);
+        transition: transform 300ms 100ms;
+        top: 0;
+    }
+
+    #ResponsiveNav:checked ~ .ResponsiveNavIcon span::after  {
+        background-color: var(--Plain);
+        transform: rotate(45deg);
+        transition: transform 300ms 100ms;
+        bottom: 0;
+    }
+
+}
+
+/* Main Menu Media Query End */
+/* Main Menu End */
+
+
+
+/* History Coverup Section */
+
+section.HistoryCoverup {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(30vmax, auto);
+    grid-template-areas:
+    "HistoryCoverupIntroArea"
+    "HistoryCoverupSpecificsArea";
+    justify-content: center;
+    background-color: var(--Plain);
+    color: var(--dark);
+}
+
+section.HistoryCoverup div {
+    padding: 5% 10%;
+}
+
+section.HistoryCoverup p {
+    text-align: justify;
+}
+
+section.HistoryCoverup .HistoryCoverupIntro {
+    display: grid;
+    grid-area: HistoryCoverupIntroArea;
+    align-content: center;
+    justify-content: center;
+    background-color: var(--Plain);
+}
+
+section.HistoryCoverup .HistoryCoverupSpecifics {
+    display: grid;
+    grid-area: HistoryCoverupSpecificsArea;
+    align-content: center;
+    justify-content: center;
+    background-color: var(--Plain-medium);
+}
+
+
+/* History Coverup Section Media Query */
+
+@media only screen and (max-width: 10in) {
+
+    section.HistoryCoverup {
+        grid-auto-rows: minmax(40vmax, auto);
+    }
+
+    section.HistoryCoverup div {
+        justify-content: center;
+    }
+    
+    
+
+}
+
+/* History Coverup Section Media Query End */
+/* History Coverup Section End */
+
+
+
+/* Footer Section */
+
+footer {
+    position: relative;
+    display: grid;
+    grid-template-columns: 10vmax 2fr 2fr;
+    grid-auto-rows: minmax(5vmax, auto);
+    grid-template-areas:
+    ". . ."
+    "MenuLinksArea GeneralInfoArea BusinessTitleFooter"
+    "MenuLinksArea GeneralInfoArea SiteSloganFooter"
+    "MenuLinksArea GeneralInfoArea SiteLogoArea "
+    ". GeneralInfoArea ExternalLinksArea"
+    ". . .";
+    padding: 0 2%;
+    grid-gap: 1em ;
+    background-color: var(--dark);
+}
+
+footer .MenuLinks {
+    display: grid;
+    grid-area: MenuLinksArea;
+    align-items: start;
+    justify-content:start;
+}
+
+footer .MenuLinks ul {
+    display: grid;
+    align-items: start;
+    justify-content: center;
+    grid-gap: auto;
+}
+
+footer .MenuLinks ul li {
+    list-style: none;
+    margin: 5% 0;
+}
+
+footer .MenuLinks ul li a {
+    text-decoration: none;
+    color: var(--Plain-medium);
+    font-size: 1em;
+}
+
+footer .BusinessInfo {
+    display: grid;
+    grid-area: GeneralInfoArea;
+    align-items: start;
+    font-size: 1em;
+    color: var(--Plain-medium);
+}
+
+footer .BusinessTitleFooter {
+    grid-area: BusinessTitleFooter;
+    align-self: end;
+    justify-self: left;
+    font-family: BusinessTitle;
+    font-size: calc(2em + 0.25vmin);
+    font-weight: bolder;
+    color: var(--Plain-medium);
+}
+
+footer .SiteSloganFooter {
+    grid-area: SiteSloganFooter;
+    align-self: start;
+    justify-self: left;
+    font-family: SiteSlogan;
+    font-size: calc(1.75em + 0.25vmin);
+    color: var(--Plain-medium);
+}
+
+footer .FooterLogo {
+    height: 5vmin; Width: auto;
+    background-color: var(--Plain);
+    grid-area: SiteLogoArea;
+    align-self: end;
+    justify-self: start;
+}
+
+footer .ExternalLinks {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 0fr 1fr 9fr;
+    align-items: center;
+    grid-area: ExternalLinksArea;
+    font-size: 1.5em;
+    color: var(--Plain-medium);
+}
+
+
+/* Footer Section Media Query */
+@media only screen and (max-width: 10in) {
+
+    footer {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "BusinessTitleFooter"
+        "SiteSloganFooter"
+        "GeneralInfoArea"
+        "SiteLogoArea"
+        "ExternalLinksArea"
+        "MenuLinksArea";
+        padding: 1em 0.8em;
+        grid-gap: 0.1em;
+    }
+
+    footer .BusinessTitleFooter {
+        padding-top: 8%;
+        font-size: calc(1.25em + 0.25vmin);
+        justify-self: left;
+    }
+
+    footer .SiteSloganFooter {
+        font-size: calc(1em + 0.25vmin);
+        justify-self: left;
+    }
+
+    footer .BusinessInfo {
+        justify-self: left;
+        font-size: 0.8rem;
+        padding: 5% 0;
+        grid-row-gap: 0.4rem;
+    }
+
+    footer .FooterLogo {
+        margin: 5% 0;
+        justify-self: left;
+    }
+
+    footer .ExternalLinks {
+        grid-template-columns:0fr 1fr 20fr;
+        grid-column-gap: 0.2rem ;
+        align-items: center;
+        justify-content: left;
+        font-size: 1.2rem;
+    }
+
+    footer .MenuLinks {
+        padding: 0;
+        align-self: stretch;
+        align-items: center;
+        justify-content: stretch;
+        font-family: SiteMenu;
+    }
+
+    footer .MenuLinks ul {
+        justify-items: left;
+        grid-template-columns: repeat(auto-fit, minmax(5.5rem, 1fr));
+    }
+
+    footer .MenuLinks ul li {
+        display: grid;
+        margin: 0;
+    }
+
+
+}
+
+
+/* Footer Section Media Query End */
+/* Footer Section End */
+
+
+
+
+
+

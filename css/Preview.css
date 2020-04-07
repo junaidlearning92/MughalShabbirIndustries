@@ -1,0 +1,1039 @@
+
+
+/* 03321446724 */
+
+* {
+    margin: 0; padding: 0; box-sizing: border-box; font-family: helvetica, Geneva, Tahoma, serif;
+}
+html, body {
+    margin: 0px; padding: 0px; height: 100%;
+}
+:root {
+    --Planin: rgb(242, 242, 242);
+    --light: rgb(145, 183, 217);
+    --medium: rgb(69, 107, 140);
+    --dark: rgb(17, 42, 64);
+    --extra: rgb(40, 110, 120);
+    --extra-light: rgb(50, 160, 170);
+    --msi-red: rgb(175, 30, 30);
+}
+
+
+.SiteHeader {
+    color: var(--msi-red);
+    margin: 0 2rem;
+}
+
+
+.SiteSlogan {
+    position: absolute;
+    right: 30em;
+    transform: translateY(-30px);
+}
+
+@font-face {
+    src: url(/Assets/Fonts/Square_Shape/corp.ttf);
+    font-family: BusinessTitle;}
+span.BusinessTitle{
+    font-family: BusinessTitle;
+    font-size: 5.5vmin;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan;}
+span.SiteSlogan{
+    font-family: SiteSlogan;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;
+    color: var(--msi-red);}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Bold/add_loops/ADDLN___.TTF);
+    font-family: BusinessTitle2;}
+span.BusinessTitle2{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle2;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan2;}
+span.SiteSlogan2{
+    font-family: SiteSlogan2;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */    
+@font-face {
+    src: url(/Assets/Fonts/Bold/bayformance/Bayformance.otf);
+    font-family: BusinessTitle3;}
+span.BusinessTitle3{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle3;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan3;}
+span.SiteSlogan3{
+    font-family: SiteSlogan3;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+    @font-face {
+        src: url(/Assets/Fonts/Bold/BEST\ IN\ CLASS.ttf);
+        font-family: BusinessTitle4;}    
+    span.BusinessTitle4{
+        font-size: 5.5vmin;
+        font-family: BusinessTitle4;}
+    @font-face {
+        src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+        font-family: SiteSlogan4;}    
+    span.SiteSlogan4{
+        font-family: SiteSlogan4;
+        font-size: 2vmin;
+        word-spacing: 0.4em;
+        letter-spacing: 0.4em;}
+    
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Bold/clark/Clark\ Bold.otf);
+    font-family: BusinessTitle5;}
+span.BusinessTitle5{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle5;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan5;}
+span.SiteSlogan5{
+    font-family: SiteSlogan5;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Bold/complete/COMPLETI.OTF);
+    font-family: BusinessTitle6;}
+span.BusinessTitle6{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle6;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan6;}
+span.SiteSlogan6{
+    font-family: SiteSlogan6;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Bold/continuum/contb.ttf);
+    font-family: BusinessTitle7;}
+span.BusinessTitle7{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle7;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan7;}
+span.SiteSlogan7{
+    font-family: SiteSlogan7;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Bold/Conviction.ttf);
+    font-family: BusinessTitle8;}
+span.BusinessTitle8{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle8;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan8;}
+span.SiteSlogan8{
+    font-family: SiteSlogan8;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Bold/cs_regular.ttf);
+    font-family: BusinessTitle9;}
+span.BusinessTitle9{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle9;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan9;}
+span.SiteSlogan9{
+    font-family: SiteSlogan9;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Bold/Dashboard-Regular.otf);
+    font-family: BusinessTitle10;}
+span.BusinessTitle10{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle10;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan10;}
+span.SiteSlogan10{
+    font-family: SiteSlogan10;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+    /* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Bold/Diara-Umba.otf);
+    font-family: BusinessTitle11;}
+span.BusinessTitle11{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle11;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan11;}
+span.SiteSlogan11{
+    font-family: SiteSlogan11;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Bold/EA\ Sports\ Covers\ SC\ 1.5.ttf);
+    font-family: BusinessTitle12;}
+span.BusinessTitle12{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle12;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan12;}
+span.SiteSlogan12{
+    font-family: SiteSlogan12;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Bold/Emmanuelle.ttf);
+    font-family: BusinessTitle13;}
+span.BusinessTitle13{
+    font-size: 4.2vmin;
+    font-family: BusinessTitle13;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan13;}
+span.SiteSlogan13{
+    font-family: SiteSlogan13;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Bold/gold_2/Gold-Regular.ttf);
+    font-family: BusinessTitle14;}
+span.BusinessTitle14{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle14;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan14;}
+span.SiteSlogan14{
+    font-family: SiteSlogan14;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Bold/grand_national/grandnational.otf);
+    font-family: BusinessTitle15;}
+span.BusinessTitle15{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle15;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan15;}
+span.SiteSlogan15{
+    font-family: SiteSlogan15;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Bold/grand_national/grandnational3d.ttf);
+    font-family: BusinessTitle16;}
+span.BusinessTitle16{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle16;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan16;}
+span.SiteSlogan16{
+    font-family: SiteSlogan16;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Bold/MAGNUM__.TTF);
+    font-family: BusinessTitle17;}
+span.BusinessTitle17{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle17;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan17;}
+span.SiteSlogan17{
+    font-family: SiteSlogan17;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Bold/philosophy.ttf);
+    font-family: BusinessTitle18;}
+span.BusinessTitle18{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle18;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan18;}
+span.SiteSlogan18{
+    font-family: SiteSlogan18;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Bold/Plumpfull.ttf);
+    font-family: BusinessTitle19;}
+span.BusinessTitle19{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle19;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan19;}
+span.SiteSlogan19{
+    font-family: SiteSlogan19;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Bold/Prototype.ttf);
+    font-family: BusinessTitle20;}
+span.BusinessTitle20{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle20;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan20;}
+span.SiteSlogan20{
+    font-family: SiteSlogan20;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Bold/Provicali.otf);
+    font-family: BusinessTitle21;}
+span.BusinessTitle21{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle21;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan21;}
+span.SiteSlogan21{
+    font-family: SiteSlogan21;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Bold/Provisionary.otf);
+    font-family: BusinessTitle22;}
+span.BusinessTitle22{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle22;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan22;}
+span.SiteSlogan22{
+    font-family: SiteSlogan22;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Bold/Russo_One.ttf.ttf);
+    font-family: BusinessTitle23;}
+span.BusinessTitle23{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle23;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan23;}
+span.SiteSlogan23{
+    font-family: SiteSlogan23;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Bold/sd\ prostreet.ttf);
+    font-family: BusinessTitle24;}
+span.BusinessTitle24{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle24;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan24;}
+span.SiteSlogan24{
+    font-family: SiteSlogan24;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Bold/sf_transrobotics/SF\ TransRobotics.ttf);
+    font-family: BusinessTitle25;}
+span.BusinessTitle25{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle25;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan25;}
+span.SiteSlogan25{
+    font-family: SiteSlogan25;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Bold/Sucrose-Bold-Two-DEMO.otf);
+    font-family: BusinessTitle26;}
+span.BusinessTitle26{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle26;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan26;}
+span.SiteSlogan26{
+    font-family: SiteSlogan26;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Bold/Velocista-Demo-FFP.ttf);
+    font-family: BusinessTitle27;}
+span.BusinessTitle27{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle27;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan27;}
+span.SiteSlogan27{
+    font-family: SiteSlogan27;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Bold/Zega-Grot-Extrabold-TTF-Trial.ttf);
+    font-family: BusinessTitle28;}
+span.BusinessTitle28{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle28;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan28;}
+span.SiteSlogan28{
+    font-family: SiteSlogan28;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Extra_Style/barbatrick.ttf);
+    font-family: BusinessTitle29;}
+span.BusinessTitle29{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle29;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan29;}
+span.SiteSlogan29{
+    font-family: SiteSlogan29;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Extra_Style/Blackest-Bold.otf);
+    font-family: BusinessTitle30;}
+span.BusinessTitle30{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle30;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan30;}
+span.SiteSlogan30{
+    font-family: SiteSlogan30;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Extra_Style/daniel2/DANIEL-Italic.otf);
+    font-family: BusinessTitle31;}
+span.BusinessTitle31{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle31;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan31;}
+span.SiteSlogan31{
+    font-family: SiteSlogan31;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Extra_Style/DotBoundary-Fixed.otf);
+    font-family: BusinessTitle32;}
+span.BusinessTitle32{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle32;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan32;}
+span.SiteSlogan32{
+    font-family: SiteSlogan32;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Extra_Style/DotBoundary-Justified.otf);
+    font-family: BusinessTitle33;}
+span.BusinessTitle33{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle33;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan33;}
+span.SiteSlogan33{
+    font-family: SiteSlogan33;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Extra_Style/speed+.ttf);
+    font-family: BusinessTitle34;}
+span.BusinessTitle34{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle34;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan34;}
+span.SiteSlogan34{
+    font-family: SiteSlogan34;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Extra_Style/Sportypo-Reguler-Demo.ttf);
+    font-family: BusinessTitle35;}
+span.BusinessTitle35{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle35;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan35;}
+span.SiteSlogan35{
+    font-family: SiteSlogan35;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Extra_Style/sufrimeda.ttf);
+    font-family: BusinessTitle36;}
+span.BusinessTitle36{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle36;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan36;}
+span.SiteSlogan36{
+    font-family: SiteSlogan36;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Extra_Style/sui\ generis\ rg.ttf);
+    font-family: BusinessTitle37;}
+span.BusinessTitle37{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle37;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan37;}
+span.SiteSlogan37{
+    font-family: SiteSlogan37;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Extra_Style/Switch\ System.ttf);
+    font-family: BusinessTitle38;}
+span.BusinessTitle38{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle38;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan38;}
+span.SiteSlogan38{
+    font-family: SiteSlogan38;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Extra_Style/Syke-Italic.otf);
+    font-family: BusinessTitle39;}
+span.BusinessTitle39{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle39;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan39;}
+span.SiteSlogan39{
+    font-family: SiteSlogan39;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Extra_Style/Sylphie\ DEMO.otf);
+    font-family: BusinessTitle40;}
+span.BusinessTitle40{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle40;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan40;}
+span.SiteSlogan40{
+    font-family: SiteSlogan40;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Extra_Style/Symbolism.ttf);
+    font-family: BusinessTitle41;}
+span.BusinessTitle41{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle41;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan41;}
+span.SiteSlogan41{
+    font-family: SiteSlogan41;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Extra_Style/tayloritalic-Regular.ttf);
+    font-family: BusinessTitle42;}
+span.BusinessTitle42{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle42;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan42;}
+span.SiteSlogan42{
+    font-family: SiteSlogan42;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Extra_Style/Theobald-Clean.otf);
+    font-family: BusinessTitle43;}
+span.BusinessTitle43{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle43;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan43;}
+span.SiteSlogan43{
+    font-family: SiteSlogan43;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Extra_Style/xolonium/Xolonium-Bold.otf);
+    font-family: BusinessTitle44;}
+span.BusinessTitle44{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle44;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan44;}
+span.SiteSlogan44{
+    font-family: SiteSlogan44;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Heading/MASQUE__.ttf);
+    font-family: BusinessTitle45;}
+span.BusinessTitle45{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle45;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan45;}
+span.SiteSlogan45{
+    font-family: SiteSlogan45;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Heading/Monterchi-Sans-Bold.otf);
+    font-family: BusinessTitle46;}
+span.BusinessTitle46{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle46;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan46;}
+span.SiteSlogan47{
+    font-family: SiteSlogan46;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Heading/Ondo-DEMO-Medium.otf);
+    font-family: BusinessTitle47;}
+span.BusinessTitle47{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle47;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan47;}
+span.SiteSlogan47{
+    font-family: SiteSlogan47;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Special_Type/Carannorov.ttf);
+    font-family: BusinessTitle48;}
+span.BusinessTitle48{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle48;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan48;}
+span.SiteSlogan48{
+    font-family: SiteSlogan48;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+    /* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Special_Type/GoodMorning-Inverse.otf);
+    font-family: BusinessTitle49;}
+span.BusinessTitle49{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle49;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan49;}
+span.SiteSlogan49{
+    font-family: SiteSlogan49;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Special_Type/elephant_a/ELEPAO__.TTF);
+    font-family: BusinessTitle50;}
+span.BusinessTitle50{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle50;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan50;}
+span.SiteSlogan50{
+    font-family: SiteSlogan50;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Special_Type/KITCHENPOLICE.TTF);
+    font-family: BusinessTitle51;}
+span.BusinessTitle51{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle51;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan51;}
+span.SiteSlogan51{
+    font-family: SiteSlogan51;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Special_Type/Kremlin\ Chairman.ttf);
+    font-family: BusinessTitle52;}
+span.BusinessTitle52{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle52;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan52;}
+span.SiteSlogan52{
+    font-family: SiteSlogan52;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Special_Type/Level-Regular.ttf);
+    font-family: BusinessTitle53;}
+span.BusinessTitle53{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle53;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan53;}
+span.SiteSlogan53{
+    font-family: SiteSlogan53;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Special_Type/Sigil.ttf);
+    font-family: BusinessTitle54;}
+span.BusinessTitle54{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle54;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan54;}
+span.SiteSlogan54{
+    font-family: SiteSlogan54;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Special_Type/TTD\ Compadre-Regular.ttf);
+    font-family: BusinessTitle55;}
+span.BusinessTitle55{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle55;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan55;}
+span.SiteSlogan55{
+    font-family: SiteSlogan55;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Special_Type/Webnar-Bold.otf);
+    font-family: BusinessTitle56;}
+span.BusinessTitle56{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle56;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan56;}
+span.SiteSlogan56{
+    font-family: SiteSlogan56;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Paragraph/african.ttf);
+    font-family: BusinessTitle57;}
+span.BusinessTitle57{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle57;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan57;}
+span.SiteSlogan57{
+    font-family: SiteSlogan57;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Paragraph/Basil-Regular.otf);
+    font-family: BusinessTitle57;}
+span.BusinessTitle57{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle57;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan57;}
+span.SiteSlogan57{
+    font-family: SiteSlogan57;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Paragraph/Haboro-Sans-Norm-Regular.otf);
+    font-family: BusinessTitle57;}
+span.BusinessTitle57{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle57;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan57;}
+span.SiteSlogan57{
+    font-family: SiteSlogan57;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Paragraph/Haboro-Sans-Norm-Regular.otf);
+    font-family: BusinessTitle58;}
+span.BusinessTitle58{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle58;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan58;}
+span.SiteSlogan58{
+    font-family: SiteSlogan58;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+/* ******************* */
+@font-face {
+    src: url(/Assets/Fonts/Paragraph/Haboro-Sans-Norm-Regular.otf);
+    font-family: BusinessTitle59;}
+span.BusinessTitle59{
+    font-size: 5.5vmin;
+    font-family: BusinessTitle59;}
+@font-face {
+    src: url(/Assets/Fonts/Selected/HomePageWelcome/Quango.otf);
+    font-family: SiteSlogan59;}
+span.SiteSlogan59{
+    font-family: SiteSlogan59;
+    font-size: 2vmin;
+    word-spacing: 0.4em;
+    letter-spacing: 0.4em;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
