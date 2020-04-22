@@ -882,6 +882,9 @@ section.ValueProposition aside.GraphicsArea .ImageSlides::after {
 
 /* Factory View Image End */
 
+.SocialProof {
+    height: 500px;
+}
 
 /* Search Section */
 @font-face {
